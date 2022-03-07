@@ -14,7 +14,7 @@ namespace iolab1
             string[] dd = d;
             string sep="";
             if (string.IsNullOrWhiteSpace(s))
-                return 0;
+                return 20;
             if (s.StartsWith("//"))
             {
                 string[] ss = s.Split('\n', 2);
